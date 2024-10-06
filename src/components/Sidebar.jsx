@@ -5,7 +5,7 @@ function Sidebar () {
 
 
     const buttonCallback = () => {
-
+        setState((state + 1))
     }
 
     return (
