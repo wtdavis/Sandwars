@@ -1,0 +1,28 @@
+{
+  "name": "sandwars",
+  "version": "1.0.0",
+  "description": "projecto sandwars",
+  "main": "index.html",
+  "scripts": {
+    "test": "test",
+    "dev": "vite --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtdavis/Sandwars.git"
+  },
+  "author": "will davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wtdavis/Sandwars/issues"
+  },
+  "homepage": "https://github.com/wtdavis/Sandwars#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
