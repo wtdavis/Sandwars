@@ -13,7 +13,7 @@ function Sidebar () {
             <div className="button" onClick={e => {e.preventDefault(); buttonCallback()}}> 
                 Push me! 
             </div>
-            <div className="num-display"> </div>
+            <div className="num-display">{state} number of times!</div>
         </>
     )
 }
