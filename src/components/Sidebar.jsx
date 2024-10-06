@@ -5,7 +5,7 @@ function Sidebar () {
 
 
     const buttonCallback = () => {
-        
+
     }
 
     return (
@@ -17,3 +17,4 @@ function Sidebar () {
         </>
     )
 }
+export default Sidebar
