@@ -7,8 +7,9 @@ function Sidebar () {
     return (
         <>
             <div className="button"> 
-
+                Push me! 
             </div>
+            <div className="num-display"> </div>
         </>
     )
 }
