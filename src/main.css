@@ -1,14 +1,32 @@
-.test {
-    color: blue
+/* color pallette  */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
-.button {
-    padding: 2em;
-    margin: 1em;
-    background-color: green
+
+.app {
+    --offwhite: rgb(239, 247, 219);
+    --yellowhite: rgb(255, 254, 219);
+    --one: #c4dddf;
+    --two: #47C6CF;
+    --three: #55F0FA;
+    --four: #1d3561;
+    --five: #2F858B;
+    --six: #1d5153;
+    --margintiny: 0.5rem;
+    --marginsmall: 1rem; 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    background-color: var(--offwhite);
+    /* min-height: 100vh; */
+    min-width: 100vw;
+    position: absolute;
+    top: 0;
 }
 
-.num-display {
-    padding: 1em;
-    border: 1px solid blue;
-}

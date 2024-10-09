@@ -1,12 +1,19 @@
+import Hero from "./components/Hero/Hero"
+import Sidebar from "./components/Sidebar/Sidebar"
 import "./main.css"
-import Hero from "./components/Hero"
-import Sidebar from "./components/Sidebar"
 function App () {
     return (
         <>
-            <div className="test">This is the App component</div>
-            <Hero/>
+            <div className="app">
             <Sidebar/>
+            <Hero/>
+            {/* <Hero/> */}
+            {/* <Hero/> */}
+            {/* <Hero/> */}
+            {/* <Hero/> */}
+            {/* <Hero/> */}
+
+            </div>
         </>
     )
 }

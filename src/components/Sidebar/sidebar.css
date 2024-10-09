@@ -1,0 +1,104 @@
+/* base level sidebar container!  */
+
+.sidebar-container {
+    width: 12em;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--six);
+    box-shadow: 1px 1px   var(--six);
+    position: fixed;
+    top: 0;
+}
+
+/* sidebar logo! ------------------------------------------------- */
+
+.sidebar-logo {
+    /* position: absolute; */
+    height: 7rem;
+}
+
+.logo {
+    color: whitesmoke;
+    background-color: var(--four);
+}
+
+.logo-line {
+    margin: -.2em 0 -.2em 0;
+    padding: 0;
+    font-size: 19px;
+}
+
+.logo-line-0 {
+    padding-left: calc(var(--margintiny) + 1em);
+    margin-top: calc(var(--margintiny) - 0.2em)
+}
+
+.logo-line-1 {
+    padding-left: calc(var(--margintiny) + 0.75em);
+}
+
+.logo-line-2 {
+    padding-left: calc(var(--margintiny) + 0.4em);
+}
+
+.logo-line-3 {
+    font-size: 20px;
+    padding-left: calc(var(--margintiny) + 0.2em);
+    margin-bottom: calc(var(--margintiny) - 0.2em)
+}
+
+/* sidebar! ------------------------- */
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    padding-top: var(--margintiny);
+    margin: none;
+    /* border: 1px solid var(--six); */
+    width: 10em;
+    background-color: var(--five);
+    color: white;
+    /* position: absolute; */
+    /* box-shadow: 1px 1px   var(--six); */
+    /* padding: 1em; */
+}
+
+.sidebar-button {
+    padding: var(--margintiny) 0 var(--margintiny) 0;
+    border-bottom: 1px solid var(--six);
+}
+
+.sidebar-button-coalition {
+    border: none;
+}
+
+
+
+.sidebar-button-resources {
+    padding: var(--margintiny) 0 var(--margintiny) 0;
+    /* font-size: 18px; */
+    border: none;
+    font-weight: bold;
+}
+
+.sidebar-button:hover {
+    color: var(--yellowhite);
+    cursor: pointer;
+    border-bottom: 1px solid var(--yellowhite)
+}
+
+.sidebar-button-coalition:hover {
+    border: none
+}
+
+.sidebar-button-coalition:hover ~ .sidebar-line-break{
+    border-bottom: 2px solid var(--yellowhite)
+}
+/* line break between navbuttons and resources link:  */
+.sidebar-line-break {
+    margin: var(--margintiny) 0 var(--margintiny) 0;
+    border-bottom: 2px solid black;
+}
+
