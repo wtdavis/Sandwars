@@ -1,6 +1,7 @@
 /* base level sidebar container!  */
 
 .sidebar-container {
+    z-index: 100;
     width: 12em;
     display: flex;
     flex-direction: column;

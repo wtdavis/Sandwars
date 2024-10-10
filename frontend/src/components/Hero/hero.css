@@ -7,19 +7,31 @@
     margin-right: 6rem;
     margin-top: 8rem;
     /* padding: var(--marginsmall); */
-    /* border: 1px solid black; */
+    border: 1px solid black;
     overflow:auto;
-    /* height: 50vh; */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: left;
-    justify-content: center;
-
+    justify-content: flex-start;
 }
 
 .hero-banner-container {
+    height: 30rem;
     display: flex;
     flex-direction: row;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 16rem;    
+    background-image: url("../../../assets/cesspool.jpg");
+}
+
+#test {
+    position: absolute;
+    left: 600px;
+    color: grey;
+    font-size: 100px;
+    mix-blend-mode: difference;
 }
 
 .hero-line {
@@ -29,17 +41,19 @@
 }
 
 .hero-banner-text-container {
+    color: black;
+    mix-blend-mode: difference;
     min-width: 800px;
     margin-right: -15vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     height: 70vh;
     min-height: 400px;
     max-height: 800px;
     /* position: absolute; */
     mix-blend-mode:hard-light;
-    color:rgb(155, 103, 103);
+    /* color:rgb(155, 103, 103); */
 }
 
 .hero-banner-line {
@@ -50,7 +64,7 @@
     height: 70vh;
     min-height: 400px;
     max-height: 800px;
-    opacity: .6;
+    /* opacity: .6; */
 }
 
 .hero-ask-container {
